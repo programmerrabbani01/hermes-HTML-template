@@ -1,0 +1,453 @@
+/*
+*   Template Name : Hermes website
+*   Author : Scraft Studio
+*   Author uri : http://scraft.studio/
+*   Developer name : jibon roy
+*   Developer uri : https://coderjibon.web.app/
+*   Version : 1.1.1
+*/
+
+/* color panel control */
+:root {
+  --coder-blue: #407bff;
+  --coder-font: "Inter", sans-serif;
+}
+
+/* Utility */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--coder-font);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.codercontainer {
+  max-width: 1300px;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+  max-width: 100%;
+}
+h2 {
+  font-family: var(--coder-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 43px;
+  line-height: 55px;
+  color: var(--coder-blue);
+}
+p {
+  font-family: var(--coder-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  font-family: var(--coder-font);
+}
+.customBtn {
+  background: var(--coder-blue);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+/* Header area 1 call */
+ul.navbar-nav {
+  margin-left: auto;
+}
+header#header {
+  padding: 15px 0;
+}
+header#header ul li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  padding: 10px 10px;
+}
+a.navbar-brand {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 38px;
+  color: #000000;
+}
+
+/* home section 1 call */
+.sectin1left .customBtn {
+  margin-top: 20px;
+}
+section#homepagesection1 h2 {
+  color: #000;
+}
+section#homepagesection1 {
+  padding: 100px 0;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header#header {
+  background-color: #f8faff;
+}
+
+/* home section 2 call */
+.homeSection2right p {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.homeSection2right {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+/* Our Services section */
+section#OurServices h2 {
+  color: #000;
+}
+section#OurServices {
+  padding: 50px 0;
+  background-color: #f8faff;
+}
+.topHeading {
+  text-align: center;
+}
+.topHeading p {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+ul.ourBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+ul.ourBox {
+  margin-top: 20px;
+}
+ul.ourBox .card {
+  border: none;
+  overflow: hidden;
+}
+ul.ourBox .card {
+  background-color: transparent;
+  text-align: center;
+}
+.blueBox h3 {
+  font-size: 23px;
+  color: #fff;
+}
+a.navbar-brand img {
+  max-width: 200px;
+}
+ul.ourBox img.card-img {
+  transition: 1s;
+  padding: 5px;
+  border: 2px solid #000;
+}
+
+/* Study Abroad area */
+section#StudayAbroad {
+  padding: 50px 0;
+}
+.slider-image img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 50%;
+}
+.sliderItem p {
+  text-align: center;
+  margin-top: 24px;
+}
+section#homeSlider a.customBtn {
+  background-color: transparent;
+  border: 3px solid #000;
+}
+section#StudayAbroad .slick-prev.slick-arrow {
+  width: 65px;
+  height: 65px;
+  background-color: var(--coder-blue);
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+}
+#coderprev {
+  left: -70px;
+}
+#coderprev,
+#codernext {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 40%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.slide_Content {
+  margin-top: 50px;
+}
+#codernext {
+  right: -70px;
+}
+.sliderarea {
+  width: 85%;
+  margin: auto;
+}
+
+/* our core area */
+section#ourCoreSection {
+  padding: 50px 0;
+  background-color: #f8faff;
+}
+h2.ourhad {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.ourCoreBox {
+  text-align: center;
+  margin: auto;
+}
+.ourCoreBox h2 {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 128.02%;
+  color: #000000;
+}
+.ourCoreBox h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 135.52%;
+  color: #000000;
+}
+
+/* book form area */
+section#bookfrom {
+  padding: 100px 0;
+}
+.formbox {
+  max-width: 60%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+.formbox h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.formbox input {
+  border: 4px solid #000;
+  border-radius: 13px;
+  font-size: 30px;
+}
+.formbox label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+button#bbb {
+  border: 4px solid #000;
+}
+button#bbb {
+  border-right: none;
+}
+.formbox .form-select {
+  border: 4px solid #000;
+  font-size: 30px;
+}
+.submitbtn {
+  text-align: center;
+  margin-top: 40px;
+}
+.submitbtn input {
+  border: none;
+  border-radius: 0;
+  text-transform: capitalize;
+}
+.formbox {
+  background: #ffffff;
+  border-radius: 26px;
+  padding: 30px 57px;
+}
+
+/* home banner section area */
+.sliderhovertext {
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+}
+.sliderhovertext p {
+  padding: 10px 0;
+}
+.sliderhovertext h2,
+.sliderhovertext p {
+  color: #fff;
+}
+.homebannerslider {
+  position: relative;
+}
+header.home {
+  background-color: transparent !important;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+}
+header.home a {
+  color: #fff !important;
+}
+
+/* Featured Destinations */
+section#featuredDes .card {
+  border: none;
+}
+section#featuredDes .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+section#featuredDes .card-body p {
+  font-size: 16px;
+  line-height: 24px;
+}
+section#featuredDes {
+  padding: 50px 0;
+}
+section#featuredDes h2 {
+  padding-bottom: 30px;
+  color: #000;
+}
+
+/* counter area  */
+.counterImage {
+  max-width: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+section#counter {
+  text-align: center;
+  padding: 50px 0;
+}
+section#counter p {
+  font-size: 16px;
+}
+section#counter h3 {
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+/* book from 2 area */
+section.from2box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+}
+.fromleftBox img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 1100px;
+}
+#OurServices {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fromarea input.default,
+.fromarea select {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  font-size: 17px;
+  padding: 5px 5px;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-left: 0;
+  outline: none;
+  background: #fff;
+}
+
+.fromarea {
+  padding: 50px 40px;
+}
+section.from2box p {
+  font-size: 16px;
+}
+section.from2box .form-check {
+  margin-bottom: 20px;
+}
+input.customBtn.submit {
+  margin-top: 20px;
+  border: none;
+}
+.formsubmit {
+  text-align: right;
+}
+.fromleftBox img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* footer section area */
+footer#footer {
+  background: #1d202c;
+  padding-top: 50px;
+}
+footer#footer h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+footer#footer ul li a {
+  color: #a6aab6;
+  font-size: 18px;
+  margin: 7px 0;
+}
+.footerbutton {
+  background: #000;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+.footerbutton p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.footerbutton ul li {
+  display: inline;
+  margin-right: 10px;
+}
+.footerbutton ul {
+  text-align: right;
+  margin-bottom: 0;
+}

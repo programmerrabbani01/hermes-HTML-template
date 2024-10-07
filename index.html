@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- website title bar -->
+    <title>Document</title>
+    <!-- Bootstrap style cdn call -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- slick slider style cdn link -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- google fonts call -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- hermes website main style file link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- hermes website main responsive file link -->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- header area start -->
+    <header id="header" class="home">
+      <div class="codercontainer">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand desk" href="#">
+              <img src="./assets/img/Hermes.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasScrolling"
+              aria-controls="offcanvasScrolling"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Couslining</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Destination</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Team profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- mobile  Offcanvas menu -->
+      <div
+        class="offcanvas offcanvas-start"
+        data-bs-scroll="true"
+        data-bs-backdrop="false"
+        tabindex="-1"
+        id="offcanvasScrolling"
+        aria-labelledby="offcanvasScrollingLabel"
+      >
+        <div class="offcanvas-header">
+          <span class="offcanvas-title" id="offcanvasScrollingLabel">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/img/Hermes.png" alt="" />
+            </a>
+          </span>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Couslining</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Destination</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- header area Stop -->
+
+    <!-- body part area start -->
+    <main>
+      <!-- home slider area start -->
+      <section id="homeSlider">
+        <div class="slider">
+          <div class="homebannerslider">
+            <img
+              src="./assets/img/homeSlider/big-ben-westminster-bridge-sunset-london-uk.jpg"
+              alt=""
+            />
+            <div class="sliderhovertext">
+              <h2>Want to Study Abroad?</h2>
+              <p>Get the best and transparent advice</p>
+              <a class="customBtn" href="">book demo today</a>
+            </div>
+          </div>
+          <div class="homebannerslider">
+            <img
+              src="./assets/img/homeSlider/colleagues-studying-together-exam.jpg"
+              alt=""
+            />
+            <div class="sliderhovertext">
+              <h2>Expert IELTS Coaching</h2>
+              <p>From Silver Partner Cambridge University Press</p>
+              <a class="customBtn" href="">book demo today</a>
+            </div>
+          </div>
+          <div class="homebannerslider">
+            <img
+              src="./assets/img/homeSlider/sydney-opera-house-near-beautiful-sea-clear-blue-sky.jpg"
+              alt=""
+            />
+            <div class="sliderhovertext">
+              <h2>Welcome to HERMES EDUCATION</h2>
+              <p>
+                ONE-STOP DESTINATION FOR ALL <br />
+                YOUR STUDY ABROAD NEEDS.
+              </p>
+              <a class="customBtn" href="">book demo today</a>
+            </div>
+          </div>
+          <div class="homebannerslider">
+            <img
+              src="./assets/img/homeSlider/tower-bridge-sunrise-london.jpg"
+              alt=""
+            />
+            <div class="sliderhovertext">
+              <h2>Welcome to Planet Education</h2>
+              <p>
+                ONE-STOP DESTINATION FOR ALL <br />
+                YOUR STUDY ABROAD NEEDS.
+              </p>
+              <a class="customBtn" href="">book demo today</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- home slider area stop -->
+
+      <!-- Featured Destinations area start -->
+      <section id="featuredDes">
+        <div class="codercontainer">
+          <h2>Featured Destinations</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="./assets/img/1.png"
+                  alt="Card image cap"
+                />
+
+                <div class="card-body">
+                  <h3>Australia</h3>
+                  <p>
+                    Australia, as one of the most popular destinations, promises
+                    an education of unrivalled quality. Australia is the #1
+                    location for overseas students due to its cultural richness,
+                    clean and extensive surroundings, kind people, and
+                    internationally recognised qualifications and employment
+                    opportunities.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="./assets/img/2.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h3>Canada</h3>
+                  <p>
+                    Owing to the quality of eduction offered, affordable tuition
+                    and the friendliness towards foreign students, Canada is one
+                    of the cherished destinations for international students and
+                    is favored by Indians in Particular.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="./assets/img/3.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h3>The UK</h3>
+                  <p>
+                    The United Kingdom has been named the greatest country for
+                    education in 2019 and is among the top 20% of achievers in
+                    terms of work life and prosperity. The UK's consistently
+                    strong educational standards have made us a solid favourite
+                    among overseas students from all around the world.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Featured Destinations area stop -->
+
+      <!-- Counter area start -->
+      <!-- <section id="counter">
+        <div class="codercontainer">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 col-6">
+              <div class="conterBox">
+                <div class="counterImage">
+                  <img src="./assets/img/experience.png" alt="" />
+                </div>
+                <h3>10250+</h3>
+                <p>experience</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-6">
+              <div class="conterBox">
+                <div class="counterImage">
+                  <img src="./assets/img/practice.png" alt="" />
+                </div>
+                <h3>10250+</h3>
+                <p>practice</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-6">
+              <div class="conterBox">
+                <div class="counterImage">
+                  <img src="./assets/img/students.png" alt="" />
+                </div>
+                <h3>10250+</h3>
+                <p>students</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-6">
+              <div class="conterBox">
+                <div class="counterImage">
+                  <img src="./assets/img/visas.png" alt="" />
+                </div>
+                <h3>10250+</h3>
+                <p>visas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Counter area stop -->
+
+      <!-- homepagesection1 area start -->
+      <section
+        id="homepagesection1"
+        style="background-image: url('./assets/img/bgb.png')"
+      >
+        <div class="codercontainer">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="sectin1left">
+                <h2>
+                  We're making international <br />
+                  education more accessible <br />
+                  to everyone
+                </h2>
+                <p>
+                  We assist students in selecting the best <br />
+                  universities from around the world
+                </p>
+                <a class="customBtn" href="#">Book Consultation</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="sectin1right">
+                <img src="./assets/img/Learning languages-bro 1.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- homepagesection1 area stop -->
+      <!-- homeSection2 area start -->
+      <section id="homeSection2">
+        <div class="codercontainer">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="homeSection2left">
+                <img src="./assets/img/Consulting-rafiki 1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="homeSection2right">
+                <div>
+                  <h2>
+                    Welcome to <br />
+                    Hermes International
+                  </h2>
+                  <p>
+                    Hermes International is a dynamic immigration consultancy
+                    firm that serves as a one-stop solution for students to
+                    study abroad. Backed by two decades of student counselling
+                    experience, the team is adept in handling immigration
+                    formalities while fulfilling student needs that could help
+                    them realize their career ambitions.
+                  </p>
+                  <a href="#" class="customBtn">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- homeSection2 area stop -->
+      <!-- Our Services section start -->
+      <section
+        id="OurServices"
+        style="
+          background-image: url(./assets/img/slider/Untitleddesign\(4\).png);
+        "
+      >
+        <div class="codercontent">
+          <div class="topHeading">
+            <h2>Our Services</h2>
+            <p>
+              We provide a one-stop solution for all of your overseas
+              educational requirements. In <br />
+              dealing with the following, we have extensive knowledge and
+              experience.
+            </p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <ul class="ourBox">
+                  <li>
+                    <a href="#">
+                      <div class="card">
+                        <img
+                          class="card-img"
+                          src="./assets/img/woman-counselor-talking-staying-close.jpg"
+                          alt="Card image"
+                        />
+                        <div class="card-body">
+                          <div class="blueBox">
+                            <h3>Student Counseling</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="card">
+                        <img
+                          class="card-img"
+                          src="./assets/img/red-shirt-group-people-business-conference-modern-classroom-daytime.jpg"
+                          alt="Card image"
+                        />
+                        <div class="card-body">
+                          <div class="blueBox">
+                            <h3>Coaching</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="card">
+                        <img
+                          class="card-img"
+                          src="./assets/img/cropped-view-woman-filling-application-form.jpg"
+                          alt="Card image"
+                        />
+                        <div class="card-body">
+                          <div class="blueBox">
+                            <h3>Application process</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="card">
+                        <img
+                          class="card-img"
+                          src="./assets/img/cooperation-analyst-chart-professional-paper-economics.jpg"
+                          alt="Card image"
+                        />
+                        <div class="card-body">
+                          <div class="blueBox">
+                            <h3>Financial advice</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="card">
+                        <img
+                          class="card-img"
+                          src="./assets/img/visa-application-form-laptop.jpg"
+                          alt="Card image"
+                        />
+                        <div class="card-body">
+                          <div class="blueBox">
+                            <h3>visa application</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="card">
+                        <img
+                          class="card-img"
+                          src="./assets/img/closeup-view-handshake-two-businessmen-suits-shaking-hands.jpg"
+                          alt="Card image"
+                        />
+                        <div class="card-body">
+                          <div class="blueBox">
+                            <h3>Continuous Support</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Services section stop -->
+      <!-- Study Abroad area start -->
+      <section id="StudayAbroad">
+        <div class="codercontainer">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="slide_Content">
+                <h2>Study Abroad</h2>
+                <p>Select your own country</p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="sliderarea">
+                <div class="sliderbox">
+                  <!-- slider item start -->
+                  <div class="sliderItem">
+                    <div class="slider-image">
+                      <img
+                        src="./assets/img/slider/Untitled design (1).png"
+                        alt=""
+                      />
+                    </div>
+                    <p>Canada</p>
+                  </div>
+                  <div class="sliderItem">
+                    <div class="slider-image">
+                      <img
+                        src="./assets/img/slider/Untitled design (2).png"
+                        alt=""
+                      />
+                    </div>
+                    <p>United Kingdom</p>
+                  </div>
+                  <div class="sliderItem">
+                    <div class="slider-image">
+                      <img
+                        src="./assets/img/slider/Untitled design (3).png"
+                        alt=""
+                      />
+                    </div>
+                    <p>Australia</p>
+                  </div>
+
+                  <div class="sliderItem">
+                    <div class="slider-image">
+                      <img
+                        src="./assets/img/slider/Untitleddesign(4).png"
+                        alt=""
+                      />
+                    </div>
+                    <p>Canada</p>
+                  </div>
+
+                  <!-- slider item end -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Study Abroad area stop -->
+
+      <!-- our core area start -->
+      <!-- <section id="ourCoreSection">
+        <div class="codercontainer">
+          <h2 class="ourhad">Our Core Strengths</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="ourCoreBox">
+                <div>
+                  <h2>1,500 +</h2>
+                  <h3>Schools</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="ourCoreBox">
+                <div>
+                  <h2>1,00,000 +</h2>
+                  <h3>Programmes</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- our core area stop -->
+
+      <!-- book from area start -->
+      <!-- <section
+        id="bookfrom"
+        style="background-image: url(./assets/img/Rectangle\ 3.png)"
+      >
+        <div class="codercontainer">
+          <div class="row">
+            <div class="col-12">
+              <div class="formBoxarea">
+                <div class="formbox">
+                  <h2>Book a Free Counseling</h2>
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputname" class="form-label"
+                        >Full Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleInputname"
+                      />
+                    </div>
+                    <label class="form-label">Mobile</label>
+                    <div class="input-group mb-3">
+                      <button
+                        id="bbb"
+                        class="btn btn-outline-secondary dropdown-toggle"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        +91
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">+880</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">+991</a>
+                        </li>
+                      </ul>
+                      <input
+                        type="text"
+                        class="form-control"
+                        aria-label="Text input with dropdown button"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label"
+                        >E-mail</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                      />
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label class="form-label">Programme</label>
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option value="0"></option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                      <div class="col-md-6">
+                        <label class="form-label">Country</label>
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option value="0"></option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="submitbtn">
+                      <input class="customBtn" type="submit" value="submit" />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- book from area stop -->
+
+      <!-- book from area start 2 -->
+      <section class="from2box">
+        <div class="fromleftBox">
+          <img src="./assets/img/student/2.png" alt="" />
+          <div class="hoverconteBox"></div>
+        </div>
+        <div class="fromrightbox">
+          <div class="fromarea">
+            <form action="">
+              <div class="row">
+                <div class="col-md-6">
+                  <input
+                    class="default"
+                    type="text"
+                    required
+                    placeholder="First name*"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    class="default"
+                    type="text"
+                    required
+                    placeholder="Last name*"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    class="default"
+                    type="email"
+                    required
+                    placeholder="Email address*"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    class="default"
+                    type="text"
+                    required
+                    placeholder="Mobile number*"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="">Your preferred study destination*</label>
+                  <select name="" id="">
+                    <option value="">Australia</option>
+                    <option value="">Canada</option>
+                    <option value="">New Zealand</option>
+                    <option value="">United Kingdom</option>
+                    <option value="">United States</option>
+                    <option value="">Ireland</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="">When do you plan to study?</label>
+                  <select name="" id="">
+                    <option value="">Jun 2022</option>
+                    <option value="">Jul 2022</option>
+                    <option value="">Aug 2022</option>
+                    <option value="">Sep 2022</option>
+                    <option value="">Oct 2022</option>
+                    <option value="">Nov 2022</option>
+                    <option value="">Dec 2022</option>
+                    <option value="">Jan 2023</option>
+                    <option value="">Feb 2023</option>
+                    <option value="">Mar 2023</option>
+                    <option value="">Apr 2023</option>
+                    <option value="">May 2023</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="">Nearest HERMES Office*</label>
+                  <select name="" id="">
+                    <option value="">Chattogram</option>
+                    <option value="">Dhaka – Dhanmondi</option>
+                    <option value="">Dhaka – Gulshan</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="">Preferred mode of counselling*</label>
+                  <select name="" id="">
+                    <option value="">In-person</option>
+                    <option value="">Virtual Counselling</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="">How would you fund your education?*</label>
+                  <select name="" id="">
+                    <option value="">Self-Funded</option>
+                    <option value="">Parents</option>
+                    <option value="">Seeking Scholarship</option>
+                    <option value="">Bank Loan</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="">Preferred study level*</label>
+                  <select name="" id="">
+                    <option value="">Doctorate</option>
+                    <option value="">Postgraduate</option>
+                    <option value="">University Preparation</option>
+                    <option value="">Vocational</option>
+                    <option value="">English Language</option>
+                    <option value="">School</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <p>
+                    HERMES will not share your details with others without your
+                    permission:
+                  </p>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >I agree to HERMES Terms and privacy policy</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck2"
+                    />
+                    <label class="form-check-label" for="exampleCheck2"
+                      >Please contact me by phone, email or SMS to assist with
+                      my enquiry</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck3"
+                    />
+                    <label class="form-check-label" for="exampleCheck3"
+                      >I would like to receive updates and offers from
+                      HERMES</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="formsubmit">
+                <input
+                  class="customBtn submit"
+                  type="submit"
+                  value="Help me study abroad"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- book from area stop 2 -->
+    </main>
+    <!-- body part area stop -->
+
+    <!-- footer part area start -->
+    <footer id="footer">
+      <div class="codercontainer">
+        <div class="row">
+          <div class="col-md-3">
+            <h3>Student Services</h3>
+            <ul>
+              <li><a href="">Why choose HERMES?</a></li>
+              <li><a href="">Course Advice</a></li>
+              <li><a href="">Visa application assistance</a></li>
+              <li><a href="">Pre-departure support</a></li>
+              <li><a href="">Welcome events</a></li>
+              <li><a href="">Student Essentials</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Study Abroad</h3>
+            <ul>
+              <li><a href="">Why study abroad?</a></li>
+              <li><a href="">Benefits of Overseas Study</a></li>
+              <li><a href="">Steps to study abroad</a></li>
+              <li><a href="">Study abroad FAQs</a></li>
+              <li><a href="">Ready to apply</a></li>
+              <li><a href="">Student stories</a></li>
+              <li><a href="">Institution answers</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>IELTS</h3>
+            <ul>
+              <li><a href="">What is IELTS?</a></li>
+              <li><a href="">Prepare for IELTS</a></li>
+              <li><a href="">IELTS test format</a></li>
+              <li><a href="">IELTS support</a></li>
+              <li><a href="">Book a test</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>More Information</h3>
+            <ul>
+              <li><a href="">HERMES Investors</a></li>
+              <li><a href="">HERMES Events</a></li>
+              <li><a href="">HERMES Offices</a></li>
+              <li><a href="">Careers at HERMES</a></li>
+              <li><a href="">About HERMES Corporate</a></li>
+              <li><a href="">Corporate responsibility</a></li>
+              <li><a href="">ielts.HERMES.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footerbutton">
+        <div class="codercontainer">
+          <div class="row">
+            <div class="col-md-6">
+              <p>Copyright © 2022 HERMES Education</p>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li><a href="">Disclaimer</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms Of Use</a></li>
+                <li><a href="">Investors</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer part area stop -->
+
+    <!-- jquery cdn call -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <!-- bootstrap js cdn file call -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <!-- slick slider js cdn link -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- hermes website main js file -->
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
